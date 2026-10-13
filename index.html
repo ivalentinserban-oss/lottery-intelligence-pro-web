@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lottery Intelligence Pro — Powerball &amp; Mega Millions statistics</title>
+  <meta name="description" content="20 years of verified Powerball and Mega Millions results: hot and cold numbers, patterns, a number generator and ticket checker.">
+  <meta name="theme-color" content="#0a101c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a101c'/%3E%3Ccircle cx='24' cy='34' r='15' fill='%23e63946'/%3E%3Ccircle cx='42' cy='28' r='13' fill='%23f5b70a'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-game="powerball">
+  <header class="topbar">
+    <div class="brand"><span class="dot" aria-hidden="true"></span>Lottery Intelligence <b>Pro</b></div>
+    <div class="game-switch" role="group" aria-label="Lottery game">
+      <button type="button" data-action="game" data-game="powerball" aria-pressed="true">Powerball</button>
+      <button type="button" data-action="game" data-game="megamillions" aria-pressed="false">Mega Millions</button>
+    </div>
+    <div class="filters">
+      <label for="period">Analyze</label>
+      <select id="period" data-change="period"></select>
+      <span id="custom-range" hidden>
+        <input type="date" id="range-from" data-change="range" aria-label="From date">
+        <input type="date" id="range-to" data-change="range" aria-label="To date">
+      </span>
+    </div>
+    <div class="status">
+      <span id="data-status">Loading…</span>
+      <button type="button" class="btn icon" data-action="refresh" id="refresh-btn" title="Check for new official results">↻ Refresh</button>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs" aria-label="Sections"></nav>
+
+  <main id="view" tabindex="-1">
+    <noscript><p>This page needs JavaScript to calculate the statistics.</p></noscript>
+  </main>
+
+  <footer>
+    <p><strong>For information and entertainment only.</strong> Lottery drawings are independent random events. Past results do not predict future results, and no number, combination or strategy on this page has a better chance of winning than any other. Not affiliated with Powerball, Mega Millions, MUSL or any state lottery. Always confirm results with your official lottery. You must be of legal age to play. If gambling is a problem for you or someone you know, call 1-800-GAMBLER (US).</p>
+  </footer>
+
+  <dialog id="dialog" aria-label="Details"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data/powerball.js"></script>
+  <script src="data/megamillions.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/pages-stats.js"></script>
+  <script src="js/pages-tools.js"></script>
+</body>
+</html>

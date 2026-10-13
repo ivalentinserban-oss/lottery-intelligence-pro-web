@@ -1,0 +1,15 @@
+{
+  "name": "lottery-intelligence-pro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static web page: 20 years of verified Powerball and Mega Millions statistics, with a number generator and ticket checker.",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node --test",
+    "update-data": "node scripts/update-data.js",
+    "update-data:full": "node scripts/update-data.js --full"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
