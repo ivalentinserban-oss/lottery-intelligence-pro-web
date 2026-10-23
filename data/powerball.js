@@ -2,7 +2,7 @@
 globalThis.LOTTERY_DATA = globalThis.LOTTERY_DATA || {};
 globalThis.LOTTERY_DATA.powerball = {
  "game": "powerball",
- "generatedAt": "2026-10-22T10:35:23.203Z",
+ "generatedAt": "2026-10-23T18:16:32.282Z",
  "historyStart": "2006-10-01",
  "count": 2363,
  "first": "2006-10-04",
@@ -15,9 +15,9 @@ globalThis.LOTTERY_DATA.powerball = {
  "rejected": [],
  "nextJackpot": {
   "amount": 674000000,
-  "cash": 283900000,
+  "cash": 289100000,
   "source": "powerball.com",
-  "asOf": "2026-10-22T10:35:23.200Z"
+  "asOf": "2026-10-23T18:16:32.279Z"
  },
  "sources": {
   "nc": {
