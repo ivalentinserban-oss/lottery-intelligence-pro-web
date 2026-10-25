@@ -2,47 +2,47 @@
 globalThis.LOTTERY_DATA = globalThis.LOTTERY_DATA || {};
 globalThis.LOTTERY_DATA.powerball = {
  "game": "powerball",
- "generatedAt": "2026-10-23T18:16:32.282Z",
+ "generatedAt": "2026-10-25T10:05:54.047Z",
  "historyStart": "2006-10-01",
- "count": 2363,
+ "count": 2364,
  "first": "2006-10-04",
- "last": "2026-10-21",
- "verifiedByTwoOrMore": 2363,
+ "last": "2026-10-24",
+ "verifiedByTwoOrMore": 2364,
  "singleSource": 0,
  "missingDates": [],
  "unexpectedDates": [],
  "conflicts": [],
  "rejected": [],
  "nextJackpot": {
-  "amount": 674000000,
-  "cash": 289100000,
+  "amount": 687000000,
+  "cash": 294700000,
   "source": "powerball.com",
-  "asOf": "2026-10-23T18:16:32.279Z"
+  "asOf": "2026-10-25T10:05:54.044Z"
  },
  "sources": {
   "nc": {
    "name": "North Carolina Education Lottery",
    "url": "https://nclottery.com/powerball-download",
    "ok": true,
-   "records": 2363,
+   "records": 2364,
    "first": "2006-10-04",
-   "last": "2026-10-21"
+   "last": "2026-10-24"
   },
   "ny": {
    "name": "New York Gaming Commission (data.ny.gov)",
    "url": "https://data.ny.gov/resource/d6yy-54nr.json?$limit=50000&$order=draw_date",
    "ok": true,
-   "records": 2015,
+   "records": 2016,
    "first": "2010-02-03",
-   "last": "2026-10-21"
+   "last": "2026-10-24"
   },
   "tx": {
    "name": "Texas Lottery",
    "url": "https://www.texaslottery.com/export/sites/lottery/Games/Powerball/Winning_Numbers/powerball.csv",
    "ok": true,
-   "records": 2015,
+   "records": 2016,
    "first": "2010-02-03",
-   "last": "2026-10-21"
+   "last": "2026-10-24"
   },
   "pb": {
    "name": "powerball.com winning-numbers file (Internet Archive copy)",
@@ -57,8 +57,8 @@ globalThis.LOTTERY_DATA.powerball = {
    "url": "https://www.powerball.com/previous-results?gc=powerball",
    "ok": true,
    "records": 30,
-   "first": "2026-08-15",
-   "last": "2026-10-21"
+   "first": "2026-08-17",
+   "last": "2026-10-24"
   }
  },
  "fields": [
@@ -2436,6 +2436,7 @@ globalThis.LOTTERY_DATA.powerball = {
 ["2026-10-14",3,34,37,42,46,20,3,565500000,"nc,ny,pbc,tx"],
 ["2026-10-17",12,13,24,32,35,11,3,586400000,"nc,ny,pbc,tx"],
 ["2026-10-19",8,31,32,42,48,23,4,610600000,"nc,ny,pbc,tx"],
-["2026-10-21",1,21,44,50,57,5,2,638600000,"nc,ny,pbc,tx"]
+["2026-10-21",1,21,44,50,57,5,2,638600000,"nc,ny,pbc,tx"],
+["2026-10-24",4,5,15,19,55,19,2,664900000,"nc,ny,pbc,tx"]
  ]
 };
