@@ -2,12 +2,12 @@
 globalThis.LOTTERY_DATA = globalThis.LOTTERY_DATA || {};
 globalThis.LOTTERY_DATA.megamillions = {
  "game": "megamillions",
- "generatedAt": "2026-11-25T15:59:38.836Z",
+ "generatedAt": "2026-11-28T14:28:44.309Z",
  "historyStart": "2006-10-01",
- "count": 2103,
+ "count": 2104,
  "first": "2006-10-03",
- "last": "2026-11-24",
- "verifiedByTwoOrMore": 2103,
+ "last": "2026-11-27",
+ "verifiedByTwoOrMore": 2104,
  "singleSource": 0,
  "missingDates": [],
  "unexpectedDates": [],
@@ -29,43 +29,43 @@ globalThis.LOTTERY_DATA.megamillions = {
  ],
  "rejected": [],
  "nextJackpot": {
-  "amount": 673000000,
-  "cash": 282600000,
+  "amount": 700000000,
+  "cash": 296800000,
   "source": "megamillions.com",
-  "asOf": "2026-11-25T15:59:38.835Z"
+  "asOf": "2026-11-28T14:28:44.306Z"
  },
  "sources": {
   "ny": {
    "name": "New York Gaming Commission (data.ny.gov)",
    "url": "https://data.ny.gov/resource/5xaw-6ayf.json?$limit=50000&$order=draw_date",
    "ok": true,
-   "records": 2103,
+   "records": 2104,
    "first": "2006-10-03",
-   "last": "2026-11-24"
+   "last": "2026-11-27"
   },
   "tx": {
    "name": "Texas Lottery",
    "url": "https://www.texaslottery.com/export/sites/lottery/Games/Mega_Millions/Winning_Numbers/megamillions.csv",
    "ok": true,
-   "records": 2103,
+   "records": 2104,
    "first": "2006-10-03",
-   "last": "2026-11-24"
+   "last": "2026-11-27"
   },
   "nc": {
    "name": "North Carolina Education Lottery",
    "url": "https://nclottery.com/mega-millions-download",
    "ok": true,
-   "records": 1755,
+   "records": 1756,
    "first": "2010-02-02",
-   "last": "2026-11-24"
+   "last": "2026-11-27"
   },
   "mm": {
    "name": "megamillions.com latest drawing",
    "url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
    "ok": true,
    "records": 1,
-   "first": "2026-11-24",
-   "last": "2026-11-24"
+   "first": "2026-11-27",
+   "last": "2026-11-27"
   }
  },
  "fields": [
@@ -2183,6 +2183,7 @@ globalThis.LOTTERY_DATA.megamillions = {
 ["2026-11-13",10,22,33,49,57,18,null,555000000,"mm,nc,ny,tx"],
 ["2026-11-17",3,10,19,28,33,21,null,600000000,"mm,nc,ny,tx"],
 ["2026-11-20",32,35,48,58,61,21,null,629000000,"mm,nc,ny,tx"],
-["2026-11-24",38,42,44,45,62,16,null,645000000,"mm,nc,ny,tx"]
+["2026-11-24",38,42,44,45,62,16,null,645000000,"mm,nc,ny,tx"],
+["2026-11-27",8,16,18,33,48,19,null,673000000,"mm,nc,ny,tx"]
  ]
 };
